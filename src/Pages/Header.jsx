@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <nav className="navBar">
       <Link to="/ISRA/Dashboard" className="title">
-        <h1>ISRA</h1>
+        <h1>Logo</h1>
       </Link>
       <div onClick={() => setOpen(!open)} className="menu">
         {open ? <p>Close</p> : <p>Open</p>}
