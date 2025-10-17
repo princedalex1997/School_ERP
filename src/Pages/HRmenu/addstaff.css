@@ -1,0 +1,28 @@
+.mainClassStaff{
+    /* border-style: solid;
+  border-width: thin; */
+  padding: 10px;
+  width: 100%;
+}
+.staffPro{
+    display: flex;
+    flex-direction: column;
+}
+.dateOfBirth{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+   
+}
+.cardInfo{
+    display: flex;
+    flex-direction: column;
+}
+.mobile{
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 10px; */
+}
+.mobile h3{
+    margin: 10px;
+}

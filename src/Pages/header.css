@@ -1,0 +1,113 @@
+.active {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(66, 96, 157);
+    width: 100%;
+    height: 90px;
+    top: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 0;
+    padding: 0;
+    right: 0;
+}
+
+.title {
+    font-size: 2rem;
+    margin: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.navBar ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-right: 50px;
+    overflow: hidden;
+    transition: all 1s ease-in;
+}
+
+.navBar ul li a {
+    display: block;
+    margin-top: 5px;
+    color: bisque;
+    padding: 15px;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.navBar ul li a:hover {
+    background-color: rgb(111, 111, 129);
+    color: #ffffff;
+}
+
+.navBar .menu {
+    display: none;
+    position: absolute;
+    top: 0.75rem;
+    right: 0.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.25rem;
+    height: 2rem;
+}
+
+.navBar .menu span {
+    height: 0.4rem;
+    border-radius: 0.2rem;
+}
+
+.btn-D {
+    background-color: #2a3454;
+    color: antiquewhite;
+}
+
+.MainClass {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 990px) {
+
+    .navBar .menu {
+        display: flex;
+    }
+
+    .MainClass {
+        display: none;
+    }
+
+    .navBar {
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .navBar .open {
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 0.25rem;
+        max-height: 0;
+    }
+
+    .navBar ul.open {
+        display: flex;
+        flex-direction: column;
+        max-height: 600px;
+        margin-bottom: 10px;
+    }
+
+    .navBar ul li a {
+        color: black;
+    }
+}

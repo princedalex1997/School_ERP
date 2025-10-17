@@ -1,0 +1,43 @@
+.prof {
+    display: flex;
+    flex-direction: column;
+    /* border-style: solid;
+    border-width: thin; */
+
+    padding-left: 20px;
+    padding: 10px;
+}
+
+.prof-card {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-width: thin;
+    width: 70%;
+    max-height: 30%;
+    align-items: center;
+    margin-left: 20px;
+    overflow: hidden;
+
+}
+
+.mainProf {
+    display: flex;
+    flex-direction: row;
+}
+
+.inputMain {
+    width: 35%;
+    
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* border-style: solid;
+    border-width: thin; */
+    padding-left: 20px;
+    padding: 10px;
+}

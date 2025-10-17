@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+}
+
+/* Hide spin buttons on number input fields */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.red {
+  color: aqua;
+  background-color: blueviolet;
+}
+.R2{
+  color: blanchedalmond;
+  background-color: burlywood;
+}
+.R3{
+  color: rgb(50, 46, 39);
+  background-color: burlywood;
+}
+.R4{
+  color: rgb(121, 94, 144);
+  background-color: rgb(161, 66, 118);
+}
+.R5{
+  color: blanchedalmond;
+  background-color: burlywood;
+}
